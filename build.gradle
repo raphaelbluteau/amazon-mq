@@ -28,5 +28,6 @@ targetCompatibility = 1.8
 dependencies {
     compile("org.springframework.boot:spring-boot-starter-activemq")
     compile("org.apache.activemq:activemq-broker")
+    compileOnly("org.projectlombok:lombok")
     compile("com.fasterxml.jackson.core:jackson-databind")
 }
